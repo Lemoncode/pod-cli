@@ -5,3 +5,11 @@ export const featureKeys = {
   hasValidations: 'hasValidations',
   hasSubComponents: 'hasSubComponents',
 };
+
+export interface Config {
+  hasContainer?: boolean;
+  hasApi?: boolean;
+  hasMappers?: boolean;
+  hasValidations?: boolean;
+  hasSubComponents?: boolean;
+}

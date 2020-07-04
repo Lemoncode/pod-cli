@@ -1,5 +1,5 @@
 import { QuestionCollection } from 'inquirer';
-import { featureKeys } from './features';
+import { featureKeys } from 'core/constants';
 
 export const questionList: QuestionCollection = [
   {
